@@ -1,0 +1,26 @@
+body {
+	background-color: rgb(228, 205, 180);
+	line-height: 100%;
+}
+
+.jumbotron {
+	background-color: rgb(51, 51, 51);
+	color: rgb(242, 242, 242);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.main {
+	
+}
+
+.crystal-images {
+}
+
+.crystal-image {
+	width: 250px;
+  	height: 200px;
+
+}
+/*crystal background
+rgb(172, 115, 57)

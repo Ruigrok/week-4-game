@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>Crystals Collector</h1>
+      </div>
+    </div>
+
+    <div class="main">
+
+      <div class="container text-center">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to a randomly generated number. You lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+      </div>
+
+      <div class="container crsytal-images">
+        <img class="crystal-image" src="assets/images/green.png" alt="green crystal">
+        <img class="crystal-image" src="assets/images/purple.png" alt="purple crystal">
+        <img class="crystal-image" src="assets/images/blue.png" alt="blue crystal">
+        <img class="crystal-image" src="assets/images/yellow.png" alt="yellow crystal">
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <h3>Number to reach:</h3>
+        </div>
+
+        <div class="col-lg-4">
+          <h3>Your score:</h3>
+        </div>
+
+        <div class="col-lg-4">
+          <h3>Wins:</h3>
+          <br>
+          <h3>Losses:</h3>
+        </div>
+
+      
+
+
+    </div>
+
+
+
+    
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+  </body>
+
+</html>
