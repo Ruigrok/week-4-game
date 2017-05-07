@@ -33,27 +33,33 @@
         <p>Each time when the game starts, the game will change the value of each crystal.</p>
       </div>
 
-      <div class="container crsytal-images">
-        <img class="crystal-image" src="assets/images/green.png" alt="green crystal">
-        <img class="crystal-image" src="assets/images/purple.png" alt="purple crystal">
-        <img class="crystal-image" src="assets/images/blue.png" alt="blue crystal">
-        <img class="crystal-image" src="assets/images/yellow.png" alt="yellow crystal">
+      <div id="crystals" class="container">
+      <!--
+        <img id="green" class="crystal-image" src="assets/images/green.png" alt="green crystal">
+        <img id="purple" class="crystal-image" src="assets/images/purple.png" alt="purple crystal">
+        <img id="blue" class="crystal-image" src="assets/images/blue.png" alt="blue crystal">
+        <img id="yellow" class="crystal-image" src="assets/images/yellow.png" alt="yellow crystal">
+        -->
       </div>
 
       <div class="row">
 
         <div class="col-lg-4">
           <h3>Number to reach:</h3>
+          <h3 id="target"></h3>
         </div>
 
         <div class="col-lg-4">
-          <h3>Your score:</h3>
+          <h3>Counter:</h3>
+          <h3 id="counter"></h3>
         </div>
 
         <div class="col-lg-4">
           <h3>Wins:</h3>
+          <h3 id="wins"></h3>
           <br>
           <h3>Losses:</h3>
+          <h3 id="losses"></h3>
         </div>
 
       
